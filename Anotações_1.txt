@@ -1,0 +1,35 @@
+Instalação Dependencias
+
+- typescript
+npm install -g typescript
+
+Para executar typescript precisamos inicia-lo com:
+tsc --init
+
+Será criado um arquivo chamado tsconfig.json para sua configuração
+
+Parametros alterados:
+    -- strict .. de true para false
+
+INstalação Yarn
+ npm install --global yarn
+
+Convertendo .js em .ts com:
+yarn tsc
+
+O arquivo que rodamos é o js gerado na conversão
+
+Instalando Express
+yarn add express
+
+instalando biblioteca de tipo de dados do express
+$ yarn add @types/express -D
+
+Automatizando processo de conversão de ts para js com ts-node-dev
+install
+$ yarn add ts-node-dev -D
+(-D = a dependencia de desenvolvimento)
+
+Dependencia ORM BD TYPEORM
+yarn add typeorm reflect-metadata sqlite3
+
